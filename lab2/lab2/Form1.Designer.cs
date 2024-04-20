@@ -96,6 +96,7 @@
       // 
       // imageBox1
       // 
+      this.imageBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
       this.imageBox1.Location = new System.Drawing.Point(23, 71);
       this.imageBox1.Name = "imageBox1";
       this.imageBox1.Size = new System.Drawing.Size(450, 300);
@@ -104,6 +105,7 @@
       // 
       // imageBox2
       // 
+      this.imageBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
       this.imageBox2.Location = new System.Drawing.Point(519, 71);
       this.imageBox2.Name = "imageBox2";
       this.imageBox2.Size = new System.Drawing.Size(450, 300);
@@ -283,7 +285,7 @@
       this.buttonApplyFilter.Name = "buttonApplyFilter";
       this.buttonApplyFilter.Size = new System.Drawing.Size(80, 23);
       this.buttonApplyFilter.TabIndex = 33;
-      this.buttonApplyFilter.Text = "Accept";
+      this.buttonApplyFilter.Text = "Apply";
       this.buttonApplyFilter.UseVisualStyleBackColor = true;
       this.buttonApplyFilter.Click += new System.EventHandler(this.buttonApplyFilter_Click);
       // 
@@ -555,7 +557,7 @@
       this.Controls.Add(this.imageBox2);
       this.Controls.Add(this.imageBox1);
       this.Name = "Form1";
-      this.Text = "Form1";
+      this.Text = "Lab2";
       ((System.ComponentModel.ISupportInitialize)(this.imageBox1)).EndInit();
       ((System.ComponentModel.ISupportInitialize)(this.imageBox2)).EndInit();
       ((System.ComponentModel.ISupportInitialize)(this.trackBarBrightness)).EndInit();
